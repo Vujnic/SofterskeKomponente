@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "prvaImpl",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prvaImpl-1.0.0.jar",
+          "url": "prvaImpl-1.0.0.jar",
+          "size": 3659,
+          "sha512": "3c409d506fcfbcfb2c1cbfaa074cd1c0d7deb87f59d222835a7ef49f203f425fcbda2cf01dd3f5a051e1c9c270541f38f166a49f1fa057ff033ae599021b6325",
+          "sha256": "0ab5fd8a064d3b3adacd27355bae8c58fc1258fe5eb1ed134009ce357bfd0f9b",
+          "sha1": "9fcd8eae52c64798ff78887b68bdc7350e4b7fd7",
+          "md5": "f5893dbf2b46ed28ca3d3055ef0642e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.example",
+          "module": "spec",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prvaImpl-1.0.0.jar",
+          "url": "prvaImpl-1.0.0.jar",
+          "size": 3659,
+          "sha512": "3c409d506fcfbcfb2c1cbfaa074cd1c0d7deb87f59d222835a7ef49f203f425fcbda2cf01dd3f5a051e1c9c270541f38f166a49f1fa057ff033ae599021b6325",
+          "sha256": "0ab5fd8a064d3b3adacd27355bae8c58fc1258fe5eb1ed134009ce357bfd0f9b",
+          "sha1": "9fcd8eae52c64798ff78887b68bdc7350e4b7fd7",
+          "md5": "f5893dbf2b46ed28ca3d3055ef0642e2"
+        }
+      ]
+    }
+  ]
+}
