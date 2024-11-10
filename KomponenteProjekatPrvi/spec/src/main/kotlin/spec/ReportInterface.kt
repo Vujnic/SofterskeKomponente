@@ -20,7 +20,7 @@ interface ReportInterface {
      * @param title An optional title for the report, used only in the formatted reports.
      * @param summary An optional summary for the report, used only in the formatted reports.
      */
-    fun generateReport(data: Map<String, List<String>>, destination: String, header: Boolean, title: String? = null, summary: String? = null)
+    fun generateReport(data: Map<String, List<String>>, destination: String, header: Boolean, title: String? = null, summary: String? = null, style: List<Pair<String, String>?>? = null)
 
 
     fun generateReport(data: ResultSet, destination: String, header: Boolean, title: String? = null, summary: String? = null){

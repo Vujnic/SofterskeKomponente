@@ -38,11 +38,11 @@
         {
           "name": "spec-1.0.0.jar",
           "url": "spec-1.0.0.jar",
-          "size": 1930,
-          "sha512": "249bf2ce2ae34dd56ed4e19f885d6f66ee8f40d3ed08ad459edf255526363b194b3f0e123a77aa5805d7d4c03ac4e650cbab4ae9ebc88e2f57482bd9add094e8",
-          "sha256": "4660952d301eb1ca39f6503dc682048eacef4822a37ea3a3d251f44f44a8e738",
-          "sha1": "2f72597b2ef11218dbc316990cc353ec37a610d5",
-          "md5": "579c5d34fdae8b586018c37e02f27f79"
+          "size": 3090,
+          "sha512": "7552ed56ead0fd62e8e7d0cb2981e68376718f2c11b232a5e896af78a920d1f88ca31438a3e3dc5b4b34b39ee91403d5e605a9031c089f5e3948b8d5a4feef88",
+          "sha256": "4015ad30821f0c4df05ac904dce0a9aab68d4e9cd27f63a0248855b755dd2d22",
+          "sha1": "6106603394a8853aa00145dbe776f729c00e5e2d",
+          "md5": "04abed05b699e78534e199c54325c50a"
         }
       ]
     },
@@ -70,11 +70,11 @@
         {
           "name": "spec-1.0.0.jar",
           "url": "spec-1.0.0.jar",
-          "size": 1930,
-          "sha512": "249bf2ce2ae34dd56ed4e19f885d6f66ee8f40d3ed08ad459edf255526363b194b3f0e123a77aa5805d7d4c03ac4e650cbab4ae9ebc88e2f57482bd9add094e8",
-          "sha256": "4660952d301eb1ca39f6503dc682048eacef4822a37ea3a3d251f44f44a8e738",
-          "sha1": "2f72597b2ef11218dbc316990cc353ec37a610d5",
-          "md5": "579c5d34fdae8b586018c37e02f27f79"
+          "size": 3090,
+          "sha512": "7552ed56ead0fd62e8e7d0cb2981e68376718f2c11b232a5e896af78a920d1f88ca31438a3e3dc5b4b34b39ee91403d5e605a9031c089f5e3948b8d5a4feef88",
+          "sha256": "4015ad30821f0c4df05ac904dce0a9aab68d4e9cd27f63a0248855b755dd2d22",
+          "sha1": "6106603394a8853aa00145dbe776f729c00e5e2d",
+          "md5": "04abed05b699e78534e199c54325c50a"
         }
       ]
     }

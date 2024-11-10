@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "kalkulacije",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kalkulacije-1.0.0.jar",
+          "url": "kalkulacije-1.0.0.jar",
+          "size": 5362,
+          "sha512": "a64675b6c22e9fac8f7f94a6e5078c9c2e79066054f1c6cb20578651b19d99d0d1f400d5ae7d0bf79e124df3efa70f0862598285fa197f4400421bf048056c95",
+          "sha256": "9d1d1625c5b0cb29968083f9a429ad730c028a3b6a525e7947a0a054fe50427b",
+          "sha1": "12895983c2d0dabbb6baa42104472ac82b6edd90",
+          "md5": "2112337b05de8fdbbe4be13223d9e940"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kalkulacije-1.0.0.jar",
+          "url": "kalkulacije-1.0.0.jar",
+          "size": 5362,
+          "sha512": "a64675b6c22e9fac8f7f94a6e5078c9c2e79066054f1c6cb20578651b19d99d0d1f400d5ae7d0bf79e124df3efa70f0862598285fa197f4400421bf048056c95",
+          "sha256": "9d1d1625c5b0cb29968083f9a429ad730c028a3b6a525e7947a0a054fe50427b",
+          "sha1": "12895983c2d0dabbb6baa42104472ac82b6edd90",
+          "md5": "2112337b05de8fdbbe4be13223d9e940"
+        }
+      ]
+    }
+  ]
+}

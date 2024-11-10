@@ -1,0 +1,53 @@
+[
+  {
+    "id" : 1,
+    "ime": "Milan",
+    "prezime": "Petrović",
+    "matematika": 3,
+    "informatika": 5,
+    "fizika": 4,
+    "istorija": 2,
+    "geografija": 4
+  },
+  {
+    "id" : 2,
+    "ime": "Ana",
+    "prezime": "Jovanović",
+    "matematika": 2,
+    "informatika": 4,
+    "fizika": 3,
+    "istorija": 5,
+    "geografija": 1
+  },
+  {
+    "id" : 3,
+    "ime": "Nikola",
+    "prezime": "Marković",
+    "matematika": 4,
+    "informatika": 3,
+    "fizika": 5,
+    "istorija": 2,
+    "geografija": 4
+  },
+  {
+    "id" : 4,
+    "ime": "Jelena",
+    "prezime": "Nikolić",
+    "matematika": 1,
+    "informatika": 2,
+    "fizika": 4,
+    "istorija": 3,
+    "geografija": 5
+  },
+  {
+    "id" : 5,
+    "ime": "Marko",
+    "prezime": "Stojanović",
+    "matematika": 5,
+    "informatika": 3,
+    "fizika": 2,
+    "istorija": 4,
+    "geografija": 3
+
+  }
+]
