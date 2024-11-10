@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "spec",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spec-1.0.0.jar",
+          "url": "spec-1.0.0.jar",
+          "size": 1930,
+          "sha512": "249bf2ce2ae34dd56ed4e19f885d6f66ee8f40d3ed08ad459edf255526363b194b3f0e123a77aa5805d7d4c03ac4e650cbab4ae9ebc88e2f57482bd9add094e8",
+          "sha256": "4660952d301eb1ca39f6503dc682048eacef4822a37ea3a3d251f44f44a8e738",
+          "sha1": "2f72597b2ef11218dbc316990cc353ec37a610d5",
+          "md5": "579c5d34fdae8b586018c37e02f27f79"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spec-1.0.0.jar",
+          "url": "spec-1.0.0.jar",
+          "size": 1930,
+          "sha512": "249bf2ce2ae34dd56ed4e19f885d6f66ee8f40d3ed08ad459edf255526363b194b3f0e123a77aa5805d7d4c03ac4e650cbab4ae9ebc88e2f57482bd9add094e8",
+          "sha256": "4660952d301eb1ca39f6503dc682048eacef4822a37ea3a3d251f44f44a8e738",
+          "sha1": "2f72597b2ef11218dbc316990cc353ec37a610d5",
+          "md5": "579c5d34fdae8b586018c37e02f27f79"
+        }
+      ]
+    }
+  ]
+}
